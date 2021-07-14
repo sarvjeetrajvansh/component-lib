@@ -65,6 +65,9 @@ hr {
 .showcase-list{
     padding: 2rem;
 }
+.list-non-bullet h1 {
+    color: var(--primary-color);
+}
 /* Navigation Customization */
 
 .navigation {
@@ -88,6 +91,10 @@ hr {
 
 .navigation .link-active {
     font-weight: bold;
+}
+.nav-brand a {
+    text-decoration: none;
+    color: inherit;
 }
 
 /** Hero Customization **/
