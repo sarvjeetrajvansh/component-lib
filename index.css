@@ -65,7 +65,7 @@ hr {
 .showcase-list{
     padding: 2rem;
 }
-.list-non-bullet h1 {
+.list-non-bullet h1, strong {
     color: var(--primary-color);
 }
 /* Navigation Customization */
@@ -92,7 +92,7 @@ hr {
 .navigation .link-active {
     font-weight: bold;
 }
-.nav-brand a {
+.nav-brand a  {
     text-decoration: none;
     color: inherit;
 }
