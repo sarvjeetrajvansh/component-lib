@@ -3,11 +3,14 @@
 :root{
 
     --primary-color: #7c3aed;
+    --dark-gray: #687280;
+    --off-white: #E5E7EB;
 }
 
 
 body{
     font-family: 'Montserrat', sans-serif;
+    margin: 0px;
 }
 
 .container{
@@ -64,6 +67,50 @@ text-align:right;
 .navigation .link-active{
     font-weight: bold;
 }
+/** header **/
+
+.hero{
+    padding: 2rem;
+}
+.hero .hero-img{
+max-width: 350px;
+display: block;
+margin: auto;
+}
+
+.hero .hero-heading{
+    padding-top: 1rem;
+    color: var(--dark-gray);
+}
+.hero .hero-heading .heading-inverted{
+    color: var(--primary-color);
+}
+.section{
+    padding:2rem;
+}
+.section h1 {
+    text-align:center;
+}
+.ow{
+    background-color: var(--off-white);
+}
+
+/** footer **/
+footer{
+    background-color: var(--primary-color);
+    padding:2rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+
+}
+.footer .link{
+    color: white;
+}
+.footer ul{
+    padding-inline-start: 0px;
+}
+
 
 
 
